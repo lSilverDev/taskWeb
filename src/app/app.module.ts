@@ -3,10 +3,20 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { HomeComponent } from './views/home/home.component';
+import { DashboardComponent } from './views/dashboard/dashboard.component';
+import { ProfileComponent } from './views/profile/profile.component';
+import { TaskCardComponent } from './components/task-card/task-card.component';
+import { SideBarComponent } from './components/side-bar/side-bar.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    HomeComponent,
+    DashboardComponent,
+    ProfileComponent,
+    TaskCardComponent,
+    SideBarComponent
   ],
   imports: [
     BrowserModule,
