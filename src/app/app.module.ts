@@ -8,6 +8,7 @@ import { DashboardComponent } from './views/dashboard/dashboard.component';
 import { ProfileComponent } from './views/profile/profile.component';
 import { TaskCardComponent } from './components/task-card/task-card.component';
 import { SideBarComponent } from './components/side-bar/side-bar.component';
+import { LoginComponent } from './views/login/login.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { SideBarComponent } from './components/side-bar/side-bar.component';
     DashboardComponent,
     ProfileComponent,
     TaskCardComponent,
-    SideBarComponent
+    SideBarComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,
