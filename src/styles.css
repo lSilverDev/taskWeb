@@ -1,5 +1,26 @@
 :root{
+  /* colors */
+  --primary-color: #095da6;
+  --sec-color: #017f8d;
+  --th-color: #5ccfbe;
+  --fr-color: #008ca7;
+  --fv-color: #9ad1e5;
 
+  /* text color */
+  --font-primary: white;
+  --font-sec: black;
+
+  /* text family */
+  --font-family: 'Roboto', sans-serif;
+  --font-family: 'Lato', sans-serif;
+
+  /* text size */
+  --primary-text-size: 16px;
+  --sec-text-size: 18px;
+
+  /* ligth mode  */
+
+  /* dark mode */
 }
 
 *{
