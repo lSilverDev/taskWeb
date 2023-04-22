@@ -1,0 +1,58 @@
+
+p{
+    color: #fff;
+}
+li {
+    list-style: none;
+    color: #fff;
+}
+#BcgGreen{
+    color: #fff;
+    text-decoration: none;
+    background-color: #008ca7;
+    border-radius: 20px;
+    padding: 6px 35px;
+    margin-left: 50px;
+}
+#InpGreen{
+    color: #fff;
+    text-decoration: none;
+    background-color: #008ca7;
+    border-radius: 20px;
+    padding: 8px 35px;
+    margin: 0 30px 0 200px;
+    border: none;
+    position: relative;
+
+}
+
+
+header{
+    height: 80px;
+    display: flex;
+    padding: 0 50px;
+    align-items: center;
+    background-color: #095da6;
+}
+.nav-menu{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 50px;
+    width: 200px;
+    
+}
+#lup{
+    position: absolute;
+    right: 440px;
+}
+.user-perfil{
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+    width: 200px;
+}
+.logout {
+    display: flex;
+    width: 60px;
+    justify-content: space-between;
+}
