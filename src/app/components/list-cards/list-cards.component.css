@@ -1,0 +1,23 @@
+.task-list__container{
+  background-color: gray;
+  display: flex;
+  flex-direction: column;
+}
+
+.tasklist-header{
+  display: flex;
+  flex-direction: row;
+}
+
+.tasklist-title{
+
+}
+
+.container-cards{
+  display: flex;
+  flex-direction: row;
+}
+
+.card-bottom{
+
+}

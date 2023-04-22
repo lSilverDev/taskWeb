@@ -1,0 +1,13 @@
+<div class="task-list__container">
+  <div class="tasklist-header">
+    <p class="tasklist-title">Backlog</p>
+    <i (click)="more()">...</i>
+  </div>
+  <div class="container-cards" *ngFor="">
+    <app-task-card></app-task-card>
+  </div>
+  <div class="card-bottom" (click)="addTask()">
+    <i>+</i>
+    <p>Add a task</p>
+  </div>
+</div>
