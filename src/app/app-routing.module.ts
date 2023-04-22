@@ -20,10 +20,10 @@ const routes: Routes = [
     component: ProfileComponent,
     pathMatch: 'full'
   },
-  {
-    path: 'teste',
-    component: ProfileComponent
-  }
+  // {
+  //   path: 'teste',
+  //   component: ListCardsComponent
+  // }
 ];
 
 @NgModule({
