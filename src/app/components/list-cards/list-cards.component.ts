@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { task } from 'src/app/models/task';
 
 @Component({
   selector: 'app-list-cards',
@@ -6,6 +7,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./list-cards.component.css']
 })
 export class ListCardsComponent {
+
+  taskList: task[] = [];
 
   addTask(){
     alert("Add task - called")

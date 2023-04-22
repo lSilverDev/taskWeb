@@ -3,8 +3,8 @@
     <p class="tasklist-title">Backlog</p>
     <i (click)="more()">...</i>
   </div>
-  <div class="container-cards" *ngFor="">
-    <app-task-card></app-task-card>
+  <div class="container-cards" *ngFor="let card of taskList">
+    <app-task-card [card]="card"></app-task-card>
   </div>
   <div class="card-bottom" (click)="addTask()">
     <i>+</i>
