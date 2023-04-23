@@ -12,6 +12,9 @@ import { LoginComponent } from './views/login/login.component';
 import { HeaderComponent } from './components/header/header.component';
 import { HttpClientModule } from '@angular/common/http';
 import { ListCardsComponent } from './components/list-cards/list-cards.component';
+import { BoardComponent } from './components/board/board.component';
+import { NewTaskComponent } from './views/new-task/new-task.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -23,12 +26,15 @@ import { ListCardsComponent } from './components/list-cards/list-cards.component
     SideBarComponent,
     LoginComponent,
     HeaderComponent,
-    ListCardsComponent
+    ListCardsComponent,
+    BoardComponent,
+    NewTaskComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

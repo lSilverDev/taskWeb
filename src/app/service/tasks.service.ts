@@ -20,14 +20,14 @@ export class TasksService {
     return taskList;
   }
 
-  async save_new_deadline(deadline: task) {
+  async save_new_deadline(deadline: string) {
 
     if(!deadline) return;
 
-    var id = "";
+    // var id = "";
 
-    await setDoc(doc(this.db, "deadlines", id), {
-      // title: deadline.title
+    await setDoc(doc(this.db, "deadlines", "id"), {
+      title: deadline
     });
 
     return 200;
