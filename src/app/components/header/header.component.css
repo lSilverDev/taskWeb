@@ -23,10 +23,7 @@ li {
     margin: 0 30px 0 200px;
     border: none;
     position: relative;
-
 }
-
-
 header{
     height: 80px;
     display: flex;
@@ -48,7 +45,7 @@ header{
 .user-perfil{
     display: flex;
     align-items: center;
-    margin-left: 50px;
+    margin-left: 30px;
     width: 200px;
 }
 .logout {
