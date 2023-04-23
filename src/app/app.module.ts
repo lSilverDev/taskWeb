@@ -9,6 +9,9 @@ import { ProfileComponent } from './views/profile/profile.component';
 import { TaskCardComponent } from './components/task-card/task-card.component';
 import { SideBarComponent } from './components/side-bar/side-bar.component';
 import { LoginComponent } from './views/login/login.component';
+import { HeaderComponent } from './components/header/header.component';
+import { HttpClientModule } from '@angular/common/http';
+import { ListCardsComponent } from './components/list-cards/list-cards.component';
 
 @NgModule({
   declarations: [
@@ -18,11 +21,14 @@ import { LoginComponent } from './views/login/login.component';
     ProfileComponent,
     TaskCardComponent,
     SideBarComponent,
-    LoginComponent
+    LoginComponent,
+    HeaderComponent,
+    ListCardsComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
