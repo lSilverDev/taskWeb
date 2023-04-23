@@ -11,6 +11,7 @@ import { SideBarComponent } from './components/side-bar/side-bar.component';
 import { LoginComponent } from './views/login/login.component';
 import { HttpClientModule } from '@angular/common/http';
 import { ListCardsComponent } from './components/list-cards/list-cards.component';
+import { NewTaskComponent } from './components/new-task/new-task.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { ListCardsComponent } from './components/list-cards/list-cards.component
     TaskCardComponent,
     SideBarComponent,
     LoginComponent,
-    ListCardsComponent
+    ListCardsComponent,
+    NewTaskComponent
   ],
   imports: [
     BrowserModule,
