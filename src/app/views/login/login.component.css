@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Eczar:wght@800&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,400&display=swap');
+
+.login{
+
+
+  background-image: url("../../../assets/img/backgrounds/bgtt.png");
+  background-size: cover;
+
+  padding: 0 0 0 8.8rem;
+
+  font-family: 'Lato', sans-serif;
+
+
+  /* height: 110vh; */
+}
+
+
+.login_top{
+
+  margin-left: 7.8rem;
+}
+
+.login_top img{
+     margin-top: 4rem;
+}
+
+.login__form{
+  display: flex;
+  flex-direction: column;
+
+  font-size: 1.4rem;
+  font-family: 'Lato', sans-serif;
+}
+
+.login__form--top{
+  display: flex;
+  flex-direction: column;
+
+  /* margin-bottom: 5.7rem; */
+}
+
+.login__label{
+     text-transform: uppercase;
+
+     margin-top: 4.3rem;
+     margin-bottom: 2.2rem;
+     font-size: 1.8rem;
+     color: var(--login-label-text-color);
+}
+
+.login__input{
+  width: 43%;
+  height: 6rem;
+
+  border-radius: .5rem;
+  border: 1px solid var(--login-input-border-color);
+
+  margin-bottom: .9rem;
+
+  padding-left: 2rem;
+
+  font-size: 1.6rem;
+
+}
+
+.login__input::placeholder{
+     color: var(--login-placeholder-text-color);
+}
+
+p{
+     color: var(--login-placeholder-text-color);
+     font-size: 1.6rem;
+
+}
+
+a{
+     text-decoration: none;
+     color: var(--login-button-color);
+     font-size: 1.6rem;
+}
+
+
+.login__form-bottom{
+     display: flex;
+     flex-direction: column;
+}
+
+.login__wrapper-elements{
+     display: flex;
+     flex-direction: column;
+}
+
+.login_wrapper-right-left-elemements{
+     display: flex;
+     align-items: center;
+     width: 43%;
+     justify-content: space-between;
+}
+
+.login__form--bottom-right{
+     display: flex;
+}
+
+.login__form--bottom-left{
+     display: flex;
+     align-items: center;
+
+}
+
+.login__label--keep-me-logged-in{
+     font-size: 1.6rem;
+     color: var( --login-label-text-color);
+}
+
+.login__buttons{
+     display: flex;
+     flex-direction: column;
+     gap: 1.4rem;
+
+     margin-top: 5rem;
+     margin-bottom: 4.4rem;
+
+
+
+}
+
+.login__button{
+     width: 43%;
+     height: 6rem;
+     font-size: 1.6rem;
+     text-transform: uppercase;
+
+     border: none;
+     border-radius: .5rem;
+
+     color: #FFF;
+     background-color: var(--login-button-color);
+
+     font-weight: 500;
+
+     font-family: 'Lato', sans-serif;
+
+}
+
+.login__button--create-account{
+     width: 43%;
+     height: 6rem;
+
+     font-size: 1.6rem;
+     text-transform: uppercase;
+
+     border: 1px solid var(--login-button-color);
+     border-radius: .5rem;
+
+     background-color: #FFF;
+     color: var(--login-button-color);
+
+     font-weight: 500;
+
+     font-family: 'Lato', sans-serif;
+}

@@ -1,4 +1,17 @@
 *{
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+}
+
+
+:root{
+    --login-button-color: #095DA6;
+    --login-placeholder-text-color: #999999;
+    --login-label-text-color: #666666;
+    --login-input-border-color: #CCCCCC;
+}
+
+html{
+  font-size: 10px;
 }
