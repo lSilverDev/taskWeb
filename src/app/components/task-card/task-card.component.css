@@ -1,0 +1,42 @@
+.card__container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  margin: .5em;
+  border-radius: 10px;
+}
+
+.card__ft-col{
+  display: flex;
+  flex-direction: column;
+  margin: .5em;
+}
+
+.card-title{
+  margin-left: .5em;
+}
+
+.card-icons__col{
+  margin: .5em;
+}
+
+.card-icons__row{
+  display: flex;
+  flex-direction: row;
+}
+
+.card__sc-col{
+  display: flex;
+  flex-direction: column;
+  margin: .5em;
+}
+
+.card-photo{
+  background-color: brown;
+  border-radius: 100%;
+  padding: .5em;
+  width: 2em;
+  height: 2em;
+}

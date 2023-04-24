@@ -21,11 +21,6 @@ export class ListCardsComponent {
     this.getTasks();
   }
 
-  save_new_deadline(task: task){
-    this.service.save_new_deadline(task);
-    this.return();
-  }
-
   async getTasks(){
     let tasks = await this.service.getTaskList();
 

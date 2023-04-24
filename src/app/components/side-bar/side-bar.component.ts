@@ -7,4 +7,7 @@ import { Component } from '@angular/core';
 })
 export class SideBarComponent {
 
+  // emissao de evento - informaçoes do board selecionado
+
+  // listar os board de forma dinamica com dados mokados
 }
