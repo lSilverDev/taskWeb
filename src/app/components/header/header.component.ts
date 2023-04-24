@@ -13,4 +13,16 @@ export class HeaderComponent {
   newTask(){
     this.router.navigateByUrl("newTask");
   }
+
+  // chamada da rota de area de trabalho
+
+  //chamada da lista de tasks recentes
+
+  //funçao de pesquisa
+
+  // ver notificaçoes
+
+  // ir para tela de login - logout
+
+  // abrir tela de perfil
 }
