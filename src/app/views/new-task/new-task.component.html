@@ -7,17 +7,14 @@
      placeholder="Diga o nome"
      [(ngModel)]="name"
     >
-    <p>{{ this.name }}</p>
   </div>
   <div>
     <label>Board</label>
     <input [(ngModel)]="board" type="text">
-    <p>{{ this.board }}</p>
   </div>
   <div>
     <label>Status</label>
     <input [(ngModel)]="status" type="text">
-    <p>{{ this.status }}</p>
   </div>
   <button (click)="info()">Salve</button>
 </div>
