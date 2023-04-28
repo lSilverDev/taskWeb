@@ -44,7 +44,7 @@
 }
 
 .login__input{
-     width: 43%;
+    width: 43%;
      height: 6rem;
 
      border-radius: .5rem;
@@ -56,6 +56,22 @@
 
      font-size: 1.6rem;
 }
+
+.login__input--password {
+     width: 100%;
+     height: 6rem;
+
+     border-radius: .5rem;
+     border: 2px solid var(--login-input-border-color);
+
+     margin-bottom: .9rem;
+
+     padding-left: 2rem;
+
+     font-size: 1.6rem;
+}
+
+
 
 .login__input::placeholder{
      color: var(--login-placeholder-text-color);
@@ -69,6 +85,21 @@ p{
 a{
      color: var(--login-button-color);
      font-size: 1.6rem;
+}
+
+.login__insert-img-input{
+  width: 43%;
+  position: relative;
+}
+
+.login__icon-password-toggle{
+  position: absolute;
+  width: 3rem;
+  content: url("../../../assets/img/icons/eye-closed.png");
+  right: 2rem;
+  top: 28%;
+
+  cursor: pointer;
 }
 
 .login__form-bottom{
