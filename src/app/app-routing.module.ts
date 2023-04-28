@@ -3,8 +3,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { HomeComponent } from './views/home/home.component';
 import { DashboardComponent } from './views/dashboard/dashboard.component';
 import { ProfileComponent } from './views/profile/profile.component';
-import { ListCardsComponent } from './components/list-cards/list-cards.component';
-import { NewTaskComponent } from './views/new-task/new-task.component';
+import { LoginComponent } from './views/login/login.component';
 
 const routes: Routes = [
   {
@@ -21,13 +20,10 @@ const routes: Routes = [
     component: ProfileComponent
   },
   {
-    path: 'newTask',
-    component: NewTaskComponent
+    path: 'test',
+    component: LoginComponent,
+    pathMatch: 'full'
   },
-  // {
-  //   path: 'teste',
-  //   component: ListCardsComponent
-  // }
 ];
 
 @NgModule({
