@@ -13,13 +13,11 @@ const routes: Routes = [
   },
   {
     path: 'dashboard',
-    component: DashboardComponent,
-    pathMatch: 'full'
+    component: DashboardComponent
   },
   {
     path: 'profile',
-    component: ProfileComponent,
-    pathMatch: 'full'
+    component: ProfileComponent
   },
   {
     path: 'test',
